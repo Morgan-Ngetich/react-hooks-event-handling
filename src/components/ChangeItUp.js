@@ -15,6 +15,7 @@ function ChangeItUp() {
       />
 
       <select name="filter" onChange={handleChange}>
+        {/* Dropdown options */}
         <option value="all">Select a filter...</option>
         <option value="completed">Completed</option>
         <option value="incomplete">Incomplete</option>
